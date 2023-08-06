@@ -1,0 +1,92 @@
+CRITICAL - 2023-07-06 05:59:24 --> Undefined property: App\Controllers\DataKartuKeluargaController::$session
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 47.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\DataKartuKeluargaController::$session', 'E:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 06:00:52 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\data_kk\add.php on line 83.
+ 1 APPPATH\Views\data_kk\add.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\add.php', 83, [])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/add', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(22): view('data_kk/add')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 15:50:37 --> Invalid file: "data_kk/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_kk/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 15:52:26 --> Invalid file: "data_kk/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_kk/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/add', [], true)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(22): view('data_kk/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 15:53:28 --> Invalid file: "data_kk/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_kk/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/add', [], true)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(22): view('data_kk/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 15:56:39 --> Invalid file: "data_penduduk/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_penduduk/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_penduduk/index', [], true)
+ 3 APPPATH\Controllers\DataPendudukController.php(19): view('data_penduduk/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 17:37:50 --> Undefined index: kouta
+in APPPATH\Views\master_data\periode_bansos\index.php on line 49.
+ 1 APPPATH\Views\master_data\periode_bansos\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kouta', 'E:\\xampp\\htdocs\\si-rt\\app\\Views\\master_data\\periode_bansos\\index.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\si-rt\\app\\Views\\master_data\\periode_bansos\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/index', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(19): view('master_data/periode_bansos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 17:38:22 --> syntax error, unexpected '/'
+in APPPATH\Views\master_data\periode_bansos\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/index', [], true)
+ 3 APPPATH\Controllers\PeriodeBansosController.php(19): view('master_data/periode_bansos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 17:38:36 --> syntax error, unexpected 'Orang' (T_STRING), expecting ';' or ','
+in APPPATH\Views\master_data\periode_bansos\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/index', [], true)
+ 3 APPPATH\Controllers\PeriodeBansosController.php(19): view('master_data/periode_bansos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 17:38:41 --> syntax error, unexpected 'Orang' (T_STRING), expecting ';' or ','
+in APPPATH\Views\master_data\periode_bansos\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/index', [], true)
+ 3 APPPATH\Controllers\PeriodeBansosController.php(19): view('master_data/periode_bansos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

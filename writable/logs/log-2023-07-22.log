@@ -1,0 +1,208 @@
+ERROR - 2023-07-22 05:00:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sibas_db', 3306, '', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(12): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\sibas-rt\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(12): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-22 05:00:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kartu_keluarga`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-22 05:00:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sibas_db', 3306, '', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(12): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\sibas-rt\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(12): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-22 05:00:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kartu_keluarga`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 05:21:32 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 51.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(101): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 08:59:38 --> Undefined variable: kk_list
+in APPPATH\Views\penentuan_bansos\kriteria\index.php on line 30.
+ 1 APPPATH\Views\penentuan_bansos\kriteria\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kk_list', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\penentuan_bansos\\kriteria\\index.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\penentuan_bansos\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('penentuan_bansos/kriteria/index', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(19): view('penentuan_bansos/kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:00:25 --> Undefined variable: kk_list
+in APPPATH\Views\penentuan_bansos\kriteria\index.php on line 30.
+ 1 APPPATH\Views\penentuan_bansos\kriteria\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kk_list', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\penentuan_bansos\\kriteria\\index.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\penentuan_bansos\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('penentuan_bansos/kriteria/index', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(19): view('penentuan_bansos/kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:13:38 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataKartuKeluargaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataKartuKeluargaController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\DataKartuKeluargaController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataKartuKeluargaController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:14:10 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataKartuKeluargaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataKartuKeluargaController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\DataKartuKeluargaController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataKartuKeluargaController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:25:27 --> Call to undefined method App\Models\PendudukModel::count
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(19): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:33:51 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataKartuKeluargaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataKartuKeluargaController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\DataKartuKeluargaController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataKartuKeluargaController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:41:27 --> Undefined index: jumlah_anggota
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 24.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_anggota', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:48:19 --> Undefined index: jumlah_anggota
+in APPPATH\Views\master_data\data_kk\index.php on line 35.
+ 1 APPPATH\Views\master_data\data_kk\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_anggota', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\index.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(31): view('master_data/data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 09:48:37 --> Undefined index: jumlah_anggota
+in APPPATH\Views\master_data\data_kk\index.php on line 35.
+ 1 APPPATH\Views\master_data\data_kk\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_anggota', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\index.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(31): view('master_data/data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 10:18:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+in APPPATH\Controllers\DataPendudukController.php on line 124.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataPendudukController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataPendudukController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataPendudukController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\DataPendudukController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataPendudukController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 16:58:37 --> Array to string conversion
+in APPPATH\Views\master_data\data_penduduk\add.php on line 56.
+ 1 APPPATH\Views\master_data\data_penduduk\add.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\add.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/add', [], true)
+ 5 APPPATH\Controllers\DataPendudukController.php(35): view('master_data/data_penduduk/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

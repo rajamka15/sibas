@@ -1,0 +1,556 @@
+CRITICAL - 2023-07-11 01:47:15 --> Undefined index: id
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:28:32 --> Undefined index: id
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:29:48 --> Undefined index: id
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:31:59 --> Undefined index: id
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:32:50 --> Undefined index: id_kk
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:32:51 --> Undefined index: id_kk
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:34:10 --> Undefined index: id_kk
+in APPPATH\Views\master_data\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(101): view('master_data/data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:38:31 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:39:36 --> Undefined variable: id_kk
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 132.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:40:04 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:40:40 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:48:24 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:52:03 --> Undefined variable: id_kk
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 132.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:52:45 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:54:53 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:57:40 --> Undefined variable: id_kk
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 132.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 15:58:22 --> Undefined variable: id_kk
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 132.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:00:47 --> Undefined variable: id
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 96.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:59:58 --> Undefined index: id
+in APPPATH\Views\master_data\periode_bansos\index.php on line 42.
+ 1 APPPATH\Views\master_data\periode_bansos\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\index.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/index', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(19): view('master_data/periode_bansos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 17:01:24 --> mysqli_sql_exception: Column 'nik' cannot be null in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\sibas-rt\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\sibas-rt\app\Controllers\PeriodeBansosController.php(58): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+#10 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-11 17:01:24 --> Column 'nik' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `penduduk` (`nik`, `nama`, `jenis_kelamin`, `tempat_lahir`, `tanggal_lahir`) VALUES (NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penduduk` (`nik`, `nama`, `jenis_kelamin`, `tempat_lahir`, `tanggal_lahir`) VALUES (NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penduduk` (`nik`, `nama`, `jenis_kelamin`, `tempat_lahir`, `tanggal_lahir`) VALUES (NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penduduk` (`nik`, `nama`, `jenis_kelamin`, `tempat_lahir`, `tanggal_lahir`) VALUES (:nik:, :nama:, :jenis_kelamin:, :tempat_lahir:, :tanggal_lahir:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\PeriodeBansosController.php(58): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:17:28 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\PeriodeBansosController.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\PeriodeBansosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PeriodeBansosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PeriodeBansosController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\PeriodeBansosController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\PeriodeBansosController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 17:18:13 --> mysqli_sql_exception: Column 'tgl_awal' cannot be null in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\sibas-rt\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\sibas-rt\app\Controllers\PeriodeBansosController.php(50): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+#10 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-11 17:18:13 --> Column 'tgl_awal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'10\', NULL, NULL, \'Bantuan Khusus Janda\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'10\', NULL, NULL, \'Bantuan Khusus Janda\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'10\', NULL, NULL, \'Bantuan Khusus Janda\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (:nama_periode:, :kuota:, :tgl_awal:, :tgl_akhir:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\PeriodeBansosController.php(50): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 17:21:10 --> mysqli_sql_exception: Column 'tgl_awal' cannot be null in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\sibas-rt\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\sibas-rt\app\Controllers\PeriodeBansosController.php(50): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+#10 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-11 17:21:10 --> Column 'tgl_awal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'12\', NULL, NULL, \'Bantuan Khusus Janda\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'12\', NULL, NULL, \'Bantuan Khusus Janda\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'12\', NULL, NULL, \'Bantuan Khusus Janda\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (:nama_periode:, :kuota:, :tgl_awal:, :tgl_akhir:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\PeriodeBansosController.php(50): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 17:22:04 --> mysqli_sql_exception: Column 'tgl_awal' cannot be null in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\sibas-rt\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\sibas-rt\app\Controllers\PeriodeBansosController.php(50): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+#10 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-11 17:22:04 --> Column 'tgl_awal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'12\', NULL, NULL, \'Bantuan Khusus Janda\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'12\', NULL, NULL, \'Bantuan Khusus Janda\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (\'Bantuan Janda\', \'12\', NULL, NULL, \'Bantuan Khusus Janda\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `periode_bansos` (`nama_periode`, `kuota`, `tgl_awal`, `tgl_akhir`, `keterangan`) VALUES (:nama_periode:, :kuota:, :tgl_awal:, :tgl_akhir:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\PeriodeBansosController.php(50): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:32:44 --> Undefined variable: tgl_awal
+in APPPATH\Controllers\PeriodeBansosController.php on line 26.
+ 1 APPPATH\Controllers\PeriodeBansosController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl_awal', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\PeriodeBansosController.php', 26, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:43:49 --> Undefined variable: penduduk
+in APPPATH\Controllers\PeriodeBansosController.php on line 97.
+ 1 APPPATH\Controllers\PeriodeBansosController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\PeriodeBansosController.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:44:11 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:44:30 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:44:31 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:44:41 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:44:44 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:45:07 --> Undefined variable: penduduk
+in APPPATH\Views\master_data\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\master_data\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:46:20 --> Invalid file: "master_data/periode_penduduk/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master_data/periode_penduduk/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_penduduk/edit', [], true)
+ 3 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_penduduk/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:46:52 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 3 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:51:23 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:53:44 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:25 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:26 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:26 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:27 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:27 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:27 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:28 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:28 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:28 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:54:29 --> Undefined variable: periode
+in APPPATH\Views\master_data\periode_bansos\edit.php on line 32.
+ 1 APPPATH\Views\master_data\periode_bansos\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\periode_bansos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/periode_bansos/edit', [], true)
+ 5 APPPATH\Controllers\PeriodeBansosController.php(103): view('master_data/periode_bansos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->edit_periode()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:57:14 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\PeriodeBansosController.php(139): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:58:42 --> Undefined variable: penduduk
+in APPPATH\Controllers\PeriodeBansosController.php on line 132.
+ 1 APPPATH\Controllers\PeriodeBansosController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penduduk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\PeriodeBansosController.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 17:59:04 --> Undefined variable: id_periode
+in APPPATH\Controllers\PeriodeBansosController.php on line 132.
+ 1 APPPATH\Controllers\PeriodeBansosController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_periode', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\PeriodeBansosController.php', 132, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PeriodeBansosController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodeBansosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,177 @@
+CRITICAL - 2023-06-28 14:53:23 --> Undefined variable $nik
+in APPPATH\Controllers\DataPendudukController.php on line 92.
+ 1 APPPATH\Controllers\DataPendudukController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nik', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataPendudukController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->edit_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 14:53:54 --> Invalid file: "penduduk/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penduduk/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('penduduk/edit', [], true)
+ 3 APPPATH\Controllers\DataPendudukController.php(98): view('penduduk/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->edit_penduduk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 15:57:34 --> Undefined array key "nik"
+in APPPATH\Views\data_penduduk\edit.php on line 36.
+ 1 APPPATH\Views\data_penduduk\edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_penduduk\\edit.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\DataPendudukController.php(98): view('data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->edit_penduduk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 16:27:12 --> Undefined variable $insert
+in APPPATH\Controllers\DataPendudukController.php on line 128.
+ 1 APPPATH\Controllers\DataPendudukController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataPendudukController.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:00:24 --> Undefined variable $penduduk_list
+in APPPATH\Views\data_kk\index.php on line 49.
+ 1 APPPATH\Views\data_kk\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk_list', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(8): view('data_kk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:14:36 --> Undefined variable $data
+in APPPATH\Views\data_kk\index.php on line 46.
+ 1 APPPATH\Views\data_kk\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(8): view('data_kk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:27:47 --> Undefined variable $data
+in APPPATH\Views\data_kk\index.php on line 41.
+ 1 APPPATH\Views\data_kk\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:30:46 --> Undefined variable $penduduk_list
+in APPPATH\Views\data_kk\index.php on line 40.
+ 1 APPPATH\Views\data_kk\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk_list', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:31:12 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:33:39 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:33:43 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:35:12 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:35:57 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:36:14 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:36:19 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:38:06 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 17:38:37 --> Undefined array key "no_kk"
+in APPPATH\Views\data_kk\index.php on line 42.
+ 1 APPPATH\Views\data_kk\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

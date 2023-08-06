@@ -1,0 +1,240 @@
+CRITICAL - 2023-07-01 04:10:25 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(69): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:12:22 --> Undefined variable $insert
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 71.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:12:42 --> Undefined variable $delte
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 71.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $delte', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:24:34 --> Undefined variable $no_kk
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 87.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_kk', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:25:07 --> Invalid file: "kartu_keluarga/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kartu_keluarga/edit.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kartu_keluarga/edit', [], true)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(93): view('kartu_keluarga/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:36:15 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(false, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], false)
+ 4 APPPATH\Controllers\DataKartuKeluargaController.php(109): CodeIgniter\Model->update([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:37:14 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(109): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:37:43 --> Undefined variable $data
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 103.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:38:38 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(109): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:42:53 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(109): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:44:45 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(109): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_edit()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 05:17:40 --> Undefined array key "id_kk"
+in APPPATH\Views\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(93): view('data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 05:20:47 --> Undefined array key "id_kk"
+in APPPATH\Views\data_kk\index.php on line 45.
+ 1 APPPATH\Views\data_kk\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 05:20:49 --> Undefined array key "id_kk"
+in APPPATH\Views\data_kk\index.php on line 45.
+ 1 APPPATH\Views\data_kk\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kk"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 05:21:59 --> Undefined array key "id"
+in APPPATH\Views\data_kk\edit.php on line 32.
+ 1 APPPATH\Views\data_kk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_kk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_kk/edit', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(93): view('data_kk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->edit_kk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-01 05:43:40 --> mysqli_sql_exception: Duplicate entry '320023948023' for key 'no_kk' in D:\xampp\htdocs\si-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\si-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\xampp\htdocs\si-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\xampp\htdocs\si-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\xampp\htdocs\si-rt\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\xampp\htdocs\si-rt\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\si-rt\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\si-rt\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\si-rt\app\Controllers\DataKartuKeluargaController.php(38): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\si-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+#9 D:\xampp\htdocs\si-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#10 D:\xampp\htdocs\si-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\si-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-01 05:43:40 --> Duplicate entry '320023948023' for key 'no_kk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (\'320023948023\', \'SJLDKFJKASDFK\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (\'320023948023\', \'SJLDKFJKASDFK\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (\'320023948023\', \'SJLDKFJKASDFK\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (:no_kk:, :nama_kepala_kk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\DataKartuKeluargaController.php(38): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 05:50:30 --> Undefined array key "id"
+in APPPATH\Views\data_penduduk\edit.php on line 32.
+ 1 APPPATH\Views\data_penduduk\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_penduduk\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_penduduk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_penduduk/edit', [], true)
+ 5 APPPATH\Controllers\DataPendudukController.php(98): view('data_penduduk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->edit_penduduk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-01 06:26:50 --> mysqli_sql_exception: Duplicate entry '320023948023' for key 'no_kk' in D:\xampp\htdocs\si-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\si-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\xampp\htdocs\si-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\xampp\htdocs\si-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\xampp\htdocs\si-rt\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\xampp\htdocs\si-rt\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\si-rt\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\si-rt\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\si-rt\app\Controllers\DataKartuKeluargaController.php(38): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\si-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+#9 D:\xampp\htdocs\si-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#10 D:\xampp\htdocs\si-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\si-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-01 06:26:50 --> Duplicate entry '320023948023' for key 'no_kk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (\'320023948023\', \'sudah\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (\'320023948023\', \'sudah\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (\'320023948023\', \'sudah\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kartu_keluarga` (`no_kk`, `nama_kepala_kk`) VALUES (:no_kk:, :nama_kepala_kk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\DataKartuKeluargaController.php(38): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 06:42:03 --> Undefined variable $insert
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 52.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 06:43:53 --> Undefined variable $insert
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 53.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataKartuKeluargaController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->submit_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 06:53:28 --> Undefined variable $kartu_keluarga
+in APPPATH\Controllers\DataPendudukController.php on line 135.
+ 1 APPPATH\Controllers\DataPendudukController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kartu_keluarga', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataPendudukController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->submit_edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 07:14:05 --> Undefined variable $kartu_keluarga
+in APPPATH\Controllers\DataPendudukController.php on line 51.
+ 1 APPPATH\Controllers\DataPendudukController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kartu_keluarga', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataPendudukController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->submit_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 07:14:28 --> Undefined variable $no_kk
+in APPPATH\Controllers\DataPendudukController.php on line 53.
+ 1 APPPATH\Controllers\DataPendudukController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_kk', 'D:\\xampp\\htdocs\\si-rt\\app\\Controllers\\DataPendudukController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->submit_tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

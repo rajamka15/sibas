@@ -1,0 +1,11 @@
+CRITICAL - 2023-06-18 02:31:54 --> Undefined variable $dvd_list
+in APPPATH\Views\data_penduduk\index.php on line 59.
+ 1 APPPATH\Views\data_penduduk\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dvd_list', 'D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_penduduk\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\si-rt\\app\\Views\\data_penduduk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data_penduduk/index', [], true)
+ 5 APPPATH\Controllers\DataPendudukController.php(9): view('data_penduduk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

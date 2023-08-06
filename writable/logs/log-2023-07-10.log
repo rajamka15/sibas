@@ -1,0 +1,293 @@
+CRITICAL - 2023-07-10 15:19:27 --> syntax error, unexpected '"agama"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\DataPendudukController.php on line 149.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataPendudukController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataPendudukController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataPendudukController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\DataPendudukController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataPendudukController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:31:39 --> syntax error, unexpected ''nik'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Models\PendudukModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\sibas-rt\\app\\Models\\PendudukModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PendudukModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PendudukModel')
+ 4 APPPATH\Controllers\DataPendudukController.php(111): spl_autoload_call('App\\Models\\PendudukModel')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->delete_penduduk()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:45:23 --> mysqli_sql_exception: Unknown column 'kartu_keluarga.id' in 'on clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\app\Controllers\DataPendudukController.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataPendudukController->index()
+#6 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-10 15:45:23 --> Unknown column 'kartu_keluarga.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `penduduk`
+JOIN `kartu_keluarga` ON `kartu_keluarga`.`id` = `penduduk`.`id_kk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penduduk`
+JOIN `kartu_keluarga` ON `kartu_keluarga`.`id` = `penduduk`.`id_kk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penduduk`
+JOIN `kartu_keluarga` ON `kartu_keluarga`.`id` = `penduduk`.`id_kk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+JOIN `kartu_keluarga` ON `kartu_keluarga`.`id` = `penduduk`.`id_kk`', [], false)
+ 5 APPPATH\Controllers\DataPendudukController.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:46:54 --> Undefined index: id
+in APPPATH\Views\master_data\data_kk\index.php on line 46.
+ 1 APPPATH\Views\master_data\data_kk\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\index.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_kk\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_kk/index', [], true)
+ 5 APPPATH\Controllers\DataKartuKeluargaController.php(18): view('master_data/data_kk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:47:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ka...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-10 15:47:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:48:16 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ka...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-10 15:48:16 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:48:24 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:49:07 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:49:49 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ka...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-10 15:49:49 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'13\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'13\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'13\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:50:16 --> Undefined variable: id_kk
+in APPPATH\Controllers\DataKartuKeluargaController.php on line 71.
+ 1 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_kk', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Controllers\\DataKartuKeluargaController.php', 71, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:50:26 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:50:33 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ka...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-10 15:50:33 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'13\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'13\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'13\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:50:42 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ka...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-10 15:50:42 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 15:53:08 --> Undefined index: id
+in APPPATH\Views\master_data\data_penduduk\add.php on line 41.
+ 1 APPPATH\Views\master_data\data_penduduk\add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\sibas-rt\\app\\Views\\master_data\\data_penduduk\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master_data/data_penduduk/add', [], true)
+ 5 APPPATH\Controllers\DataPendudukController.php(34): view('master_data/data_penduduk/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataPendudukController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-10 15:55:07 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\sibas-rt\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ka...', 0)
+#1 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\xampp\htdocs\sibas-rt\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\xampp\htdocs\sibas-rt\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\xampp\htdocs\sibas-rt\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\sibas-rt\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\sibas-rt\app\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+#8 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+#9 E:\xampp\htdocs\sibas-rt\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\sibas-rt\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-10 15:55:07 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kartu_keluarga`
+WHERE `id` IN (\'12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kartu_keluarga`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DataKartuKeluargaController.php(71): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKartuKeluargaController->delete_kk()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKartuKeluargaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

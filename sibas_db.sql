@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 06, 2023 at 07:39 PM
+-- Generation Time: Aug 06, 2023 at 07:43 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.26
 
@@ -478,19 +478,6 @@ INSERT INTO `penduduk` (`id`, `id_kk`, `nik`, `nama`, `jenis_kelamin`, `tempat_l
 (294, 60, '320123008740001', 'Nana Suryana', 'L', 'Kuningan', '1974-08-30', 'Islam', 'SMA/SMK', 'Buruh', '500K-2J', '500K-2J', 'Sumur Milik Sendiri', 'Kawin', 'Milik Sendiri', 'Listrik 450 Watt', 'Sepeda Motor 1 Buah dalam Kondisi Baik', '1'),
 (295, 60, '3201026003770003', 'Samah', 'P', 'Bogor', '1977-03-20', 'Islam', 'SMP', 'IRT', '<500K', '<500K', 'Sumur Milik Sendiri', 'Kawin', 'Milik Sendiri', 'Listrik 450 Watt', 'Sepeda Motor 1 Buah dalam Kondisi Baik', '0'),
 (296, 60, '3201021702010002', 'Kiki Moolana', 'L', 'Bogor', '2001-02-17', 'Islam', 'SMA/SMK', 'Pelajar', '<500K', '<500K', 'Sumur Milik Sendiri', 'Belum Kawin', 'Milik Orang Tua/Warisan', 'Listrik 450 Watt', 'Jalan Kaki/Sepeda/Sepeda Motor Seadanya', '0');
-
---
--- Triggers `penduduk`
---
-DELIMITER $$
-CREATE TRIGGER `hitung_jumlah_tanggungan` AFTER INSERT ON `penduduk` FOR EACH ROW BEGIN
-    DECLARE jumlah_tanggungan_baru INT;
-    SET jumlah_tanggungan_baru = (SELECT COUNT(*) FROM penduduk WHERE id_kk = NEW.id_kk);
-    SET jumlah_tanggungan_baru = jumlah_tanggungan_baru - 1; -- Kurangi 1 dari jumlah tanggungan baru
-    UPDATE kartu_keluarga SET jumlah_tanggungan = jumlah_tanggungan_baru WHERE id_kk = NEW.id_kk;
-END
-$$
-DELIMITER ;
 
 -- --------------------------------------------------------
 

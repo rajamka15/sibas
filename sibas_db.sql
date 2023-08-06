@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 06, 2023 at 07:35 PM
+-- Generation Time: Aug 06, 2023 at 07:39 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.26
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `sibas_db`
 --
+CREATE DATABASE IF NOT EXISTS `sibas_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `sibas_db`;
 
 -- --------------------------------------------------------
 

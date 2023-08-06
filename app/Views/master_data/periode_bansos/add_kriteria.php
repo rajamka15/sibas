@@ -46,6 +46,7 @@
                       <option value="Daya Listrik">Daya Listrik</option>
                       <option value="Transportasi">Transportasi</option>
                       <option value="Jumlah Tanggungan">Jumlah Tanggungan</option>
+                      <option value="Umur">Umur</option>
                     </select>
                   </div>
                 </div>

@@ -11,10 +11,11 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
-$routes->setDefaultMethod('index');
+$routes->setDefaultController('LoginController');
+$routes->setDefaultMethod('login');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
+$routes->setAutoRoute(true);
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
@@ -29,8 +30,11 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-
+$routes->get('/', 'LoginController::login');
+$routes->get('logout', 'LoginController::logout');
+$routes->group('home', static function ($routes) {
+    $routes->get('/', 'Home::index');
+});
 $routes->group('penduduk', static function ($routes) {
     $routes->get('/', 'DataPendudukController::index');
     $routes->get('tambah', 'DataPendudukController::tambah');
@@ -72,6 +76,19 @@ $routes->group('kriteria_bansos', static function ($routes) {
     $routes->post('submit_edit', 'KriteriaBansosController::submit_edit');
     }
 );
+
+$routes->group('login', static function ($routes) {
+  $routes->get('/', 'LoginController::login');
+  $routes->post('auth_login', 'LoginController::attemptLogin');
+  $routes->get('logout', 'LoginController::logout');
+});
+$routes->group('user', static function ($routes) {
+  $routes->get('/', 'UserController::login');
+  $routes->get('profile', 'UserController::profile');
+  $routes->post('submit_edit', 'UserController::submit_edit');
+  $routes->post('change_password', 'UserController::change_password');
+  $routes->get('change', 'UserController::change');
+});
 
 /*
  * --------------------------------------------------------------------

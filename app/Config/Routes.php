@@ -63,7 +63,10 @@ $routes->group('periode_bansos', static function ($routes) {
     $routes->post('submit_tambah', 'PeriodeBansosController::submit_tambah');
     $routes->get('delete', 'PeriodeBansosController::delete_periode');
     $routes->get('edit', 'PeriodeBansosController::edit_periode');
+    $routes->get('hasil_bansos', 'PeriodeBansosController::hasil_bansos');
+    $routes->get('hasil', 'PeriodeBansosController::view_hasil');
     $routes->post('submit_edit', 'PeriodeBansosController::submit_edit');
+    $routes->post('ajax_action', 'PeriodeBansosController::posting_bansos');
     }
 );
 

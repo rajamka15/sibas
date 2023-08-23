@@ -15,7 +15,8 @@
   <!-- Select2 -->
   <link rel="stylesheet" href="<?php echo base_url() ?>public/plugins/select2/css/select2.min.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>public/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
-
+  <!-- sweetalert2 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<?php echo base_url() ?>public/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->

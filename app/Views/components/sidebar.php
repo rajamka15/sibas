@@ -55,12 +55,6 @@
                   <p>Data Penduduk</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="<?php echo base_url() ?>periode_bansos" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Periode Bansos</p>
-                </a>
-              </li>
             </ul>
           </li>
 
@@ -75,19 +69,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php echo base_url() ?>kriteria_bansos" class="nav-link">
+                <a href="<?php echo base_url() ?>periode_bansos" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Bobot Kriteria</p>
+                  <p>Periode Bansos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url() ?>penduduk" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Proses Bansos</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?php echo base_url() ?>penduduk" class="nav-link">
+                <a href="<?php echo base_url() ?>periode_bansos/hasil" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Hasil Bansos</p>
                 </a>

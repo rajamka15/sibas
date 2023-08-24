@@ -613,7 +613,7 @@ public function __construct()
       INNER JOIN kartu_keluarga k ON k.id_kk = p.id_kk
       INNER JOIN periode_bansos b ON b.id_periode = p.id_periode
       INNER JOIN kriteria kr ON kr.id_kriteria = p.id_kriteria
-      INNER JOIN setting_bobot_kriteria s ON s.id_bansos = b.id_periode AND kr.id_kriteria
+      INNER JOIN setting_bobot_kriteria s ON s.id_bansos = b.id_periode AND kr.id_kriteria = s.id_setting
       WHERE p.id_periode = $id_periode
       GROUP BY p.id_posting #, s.id_kriteria
       ORDER BY k.nama_kepala_kk, p.tahap_proses, kr.id_kriteria
@@ -642,6 +642,7 @@ public function __construct()
         foreach ($value_nama as $key_nama => $value_kriteria) {
           // code...
             $sum_nilai = 0;
+
           foreach ($value_kriteria as $key_kriteria => $value) {
             // code...
 
@@ -652,17 +653,38 @@ public function __construct()
 
           }
           $get_data_array_bansos[$key][$key_nama] = $value_kriteria;
-          $get_data_array_bansos[$key][$key_nama]['hasil'] = $sum_nilai;
+          if($key == 2){
+            $get_data_array_bansos[$key][$key_nama]['Hasil'] = round($sum_nilai,8);
+          }
+
         }
       }
-      $data_kriteria_penduduk = $this->get_pendududk_kriteria();
+      $data_kriteria_penduduk =json_decode(json_encode($this->get_pendududk_kriteria()), true); ;
       // $get_data_array_bansos[0] = $data_kriteria_penduduk;
-      $response['data_penduduk'] = $data_kriteria_penduduk;
+      $array_data_penduduk = array();
+      foreach ($data_kriteria_penduduk as $key => $value) {
+        // code...
+        foreach (array_keys($value) as  $v_k) {
+          // code...
+
+          if(substr($v_k, 0, 2) == "n_"){
+          // error_log(print_r($v_k , true), 0);
+            $key_data = explode("_",$v_k);
+            // error_log(print_r($key_data , true), 0);
+            $k = count($key_data) > 2 ? $key_data[1]." ".$key_data[2] : $key_data[1];
+            $array_data_penduduk[$value['nama_kepala_kk']][ucfirst($k)] = $value[$v_k];
+          }
+        }
+
+      }
+      // $hasil_sort  = array_column($get_data_array_bansos, 'Hasil');
+      // array_multisort($hasil_sort, SORT_ASC, $driver_rank);
+      $response['data_penduduk'] = $array_data_penduduk;
       $response['data_hasil'] = $get_data_array_bansos;
       header("Content-Type: application/json");
 
       echo json_encode($response);
-      // print("<pre>".print_r($get_data_array_bansos,true)."</pre>");
+      // print("<pre>".print_r($response,true)."</pre>");
     }
     function get_pendududk_kriteria(){
       return $this->db->query("
@@ -689,6 +711,8 @@ public function __construct()
       when res.umur > 50 then getIdKriteria(43)
       ELSE getIdKriteria(40)
       END 'id_umur',
+      k.nama_kepala_kk,
+      getNilaiSubKriteria(res.pendidikan) 'n_pendidikan',
       case
       when (COUNT(res.id_kk) - 1) = 0 then getNilaiSubKriteria(6)
       when (COUNT(res.id_kk) - 1) > 0 AND (COUNT(res.id_kk) - 1) <= 2 then getNilaiSubKriteria(7)
@@ -696,8 +720,6 @@ public function __construct()
       when (COUNT(res.id_kk) - 1) >= 5 then getNilaiSubKriteria(9)
       end
        'n_jumlah_tanggungan',
-      k.nama_kepala_kk,
-      getNilaiSubKriteria(res.pendidikan) 'n_pendidikan',
       getNilaiSubKriteria(res.penghasilan) 'n_penghasilan',
       getNilaiSubKriteria(res.pengeluaran) 'n_pengeluaran',
       getNilaiSubKriteria(res.sumber_air) 'n_sumber_air',

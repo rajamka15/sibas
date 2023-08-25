@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `kartu_keluarga` (
   `jumlah_tanggungan` int NOT NULL,
   PRIMARY KEY (`id_kk`),
   UNIQUE KEY `no_kk` (`no_kk`)
-) ENGINE=InnoDB AUTO_INCREMENT=116 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=116 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table sibas_db.kartu_keluarga: ~100 rows (approximately)
 /*!40000 ALTER TABLE `kartu_keluarga` DISABLE KEYS */;
@@ -176,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `kriteria` (
   `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id_kriteria`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table sibas_db.kriteria: ~9 rows (approximately)
 /*!40000 ALTER TABLE `kriteria` DISABLE KEYS */;
@@ -218,7 +218,7 @@ CREATE TABLE IF NOT EXISTS `penduduk` (
   `modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `nik` (`nik`)
-) ENGINE=InnoDB AUTO_INCREMENT=297 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=297 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table sibas_db.penduduk: ~275 rows (approximately)
 /*!40000 ALTER TABLE `penduduk` DISABLE KEYS */;
@@ -513,7 +513,7 @@ CREATE TABLE IF NOT EXISTS `periode_bansos` (
   PRIMARY KEY (`id_periode`),
   KEY `FK_periode_bansos_users` (`id_user`),
   CONSTRAINT `FK_periode_bansos_users` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table sibas_db.periode_bansos: ~2 rows (approximately)
 /*!40000 ALTER TABLE `periode_bansos` DISABLE KEYS */;
@@ -2446,7 +2446,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `modified` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   KEY `Index 2` (`username`,`password`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table sibas_db.users: ~0 rows (approximately)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;

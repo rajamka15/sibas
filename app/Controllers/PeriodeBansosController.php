@@ -613,7 +613,7 @@ public function __construct()
       INNER JOIN kartu_keluarga k ON k.id_kk = p.id_kk
       INNER JOIN periode_bansos b ON b.id_periode = p.id_periode
       INNER JOIN kriteria kr ON kr.id_kriteria = p.id_kriteria
-      INNER JOIN setting_bobot_kriteria s ON s.id_bansos = b.id_periode AND kr.id_kriteria = s.id_setting
+      INNER JOIN setting_bobot_kriteria s ON s.id_bansos = b.id_periode AND kr.id_kriteria = s.id_kriteria
       WHERE p.id_periode = $id_periode
       GROUP BY p.id_posting #, s.id_kriteria
       ORDER BY k.nama_kepala_kk, p.tahap_proses, kr.id_kriteria

@@ -15,7 +15,7 @@
           <img src="<?php echo base_url() ?>public/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Raja MKA</a>
+          <a href="<?php echo base_url() ?>user/profile" class="d-block">Raja MKA</a>
         </div>
       </div>
 

@@ -8,7 +8,7 @@ class DataKartuKeluargaController extends BaseController
         // Buat Objek dari Class PendudukModel
         $kartu_keluarga = new \App\Models\KartuKeluargaModel();
         
-        // Buat Objek dari Class Anggota
+        // Buat Objek dari Clxass Anggota
         $anggota = new \App\Models\PendudukModel();
 
         // Ambil semua data yang ada pada table penduduk

@@ -55,7 +55,24 @@
             } 
             return 'Perempuan';
           }
-
+          function get_agama($code) {
+            switch ($code) {
+                case '1':
+                    return 'Islam';
+                case '2':
+                    return 'Protestan';
+                case '3':
+                    return 'Katholik';
+                case '4':
+                    return 'Hindu';
+                case '5':
+                    return 'Buddha';
+                case '6':
+                    return 'Konghucu';
+                default:
+                    return 'Tidak Valid';
+            }
+        }        
           function get_is_kepala_keluarga($code) {
             if($code == '0') {
               return 'Bukan Kepala Keluarga';
@@ -70,7 +87,7 @@
               echo"<td>".$data['nama']."</td>";
               echo"<td>".get_jeniskelamin($data['jenis_kelamin'])."</td>";
               echo"<td>".$data['tempat_lahir']."</td>";
-              echo"<td>".$data['agama']."</td>";
+              echo"<td>".get_agama($data['agama'])."</td>";
               echo"<td>
                 <a href='".base_url()."penduduk/edit?id=".$data['id']."' class='btn btn-warning btn-sm'>Edit</a>
                 <a onclick='return confirm(\"Apakah anda ingin menghapus data ini?\")' href='".base_url()."penduduk/delete?id=".$data['id']."&id_kk=".$data['id_kk']."' class='btn btn-danger btn-sm'>Delete</a>

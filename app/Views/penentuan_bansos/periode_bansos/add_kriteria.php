@@ -122,9 +122,9 @@ function saveConfig(){
         $.each($("input[class='form-control rounded-0 bobot']"), function(){
           total += parseInt($(this).val());
         });
-  console.log(total);
+  // console.log(total);
   if(total !== 100){
-    alert("Setting Bobot harus 100 %");
+    alert("Setting Bobot harus 100 %\nTotal Bobot saat ini : "+total+"%");
     return false;
   }
   $.each($("input[class='form-control rounded-0 bobot']"), function(){

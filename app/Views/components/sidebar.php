@@ -70,27 +70,28 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="<?php echo base_url() ?>periode_bansos" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="fas fa-user-clock nav-icon"></i>
                   <p>Periode Bansos</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?php echo base_url() ?>periode_bansos/hasil" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="nav-icon fas fa-user-check"></i>
                   <p>Hasil Bansos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo base_url() ?>periode_bansos/hasil?penerima=1" class="nav-link">
+                  <i class="nav-icon fas fa-users-cog"></i>
+                  <p>
+                    Data Penerima
+                    <!-- <span class="right badge badge-danger">New</span> -->
+                  </p>
                 </a>
               </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a href="<?php echo base_url() ?>" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>
-                Data Penerima
-                <!-- <span class="right badge badge-danger">New</span> -->
-              </p>
-            </a>
-          </li>
+
           <hr>
           <li class="nav-item">
             <a href="<?php echo base_url() ?>logout"  class="nav-link">

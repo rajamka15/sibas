@@ -39,14 +39,6 @@ class UserController extends BaseController
 		$this->status_user = $this->session->userData['status'];
 		$this->email_user = $this->session->userData['email'];
 		// $this->id_user = $this->session->userData['id'];
-		if (! $this->session->isLoggedIn) {
-			$displayMessage =[
-					"msg" => "",
-					"error" => false
-			];
-				// log_message("alert","masuk_debug");
-			return view('login', $displayMessage);
-		}
 	}
 
     //--------------------------------------------------------------------

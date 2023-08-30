@@ -30,14 +30,7 @@ public function __construct()
   $this->session = Services::session();
   $this->db      = \Config\Database::connect();
            // error_log(print_r($this->session->userData['id'], true), 0);
-  if (! $this->session->isLoggedIn) {
-    $displayMessage =[
-        "msg" => "",
-        "error" => false
-    ];
-      // log_message("alert","masuk_debug");
-    return view('login', $displayMessage);
-  }
+
 }
     public function index()
     {
@@ -67,6 +60,9 @@ public function __construct()
       $data = [
           "periode_bansos_list" => $getData
       ];
+      if(isset($_GET['penerima']) && $_GET['penerima'] == 1){
+        return view("penentuan_bansos/hasil_bansos/penerima_bansos", $data);
+      }
         return view("penentuan_bansos/hasil_bansos/index", $data);
     }
     public function config_kriteria(){
@@ -288,8 +284,8 @@ public function __construct()
     }
     function posting_bansos(){
         $id_periode = $this->request->getPost('id_periode');
-        $db = db_connect();
 
+        $db = db_connect();
         //blocking insert
         $table_setting1 = $this->db->table('setting_bobot_kriteria t');
         $table_setting1->select('*');

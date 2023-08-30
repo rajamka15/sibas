@@ -33,15 +33,15 @@
 
                   <div class="col-lg-12">
                       <label>Password Lama</label>
-                      <input type="text" class="form-control" name="password_old" >
+                      <input type="text" class="form-control" name="password_old"  >
                   </div>
                   <div class="col-lg-12">
                       <label>Password Baru</label>
-                      <input type="text" class="form-control" name="password" >
+                      <input type="password" class="form-control" name="password" >
                   </div>
                   <div class="col-lg-12">
                       <label>Ulangi Password</label>
-                      <input type="text" class="form-control" name="password_confirm" >
+                      <input type="password" class="form-control" name="password_confirm" >
                   </div>
               </div>
 

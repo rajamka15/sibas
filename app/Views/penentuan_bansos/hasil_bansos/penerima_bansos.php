@@ -47,7 +47,7 @@
       <div class="card-header">
          <h4 class="card-title w-100">
             <a class="d-block w-100" data-toggle="collapse" href="#collapse<?=$no?>">
-            <?=$no." ". $data['nama_periode']; ?> , Jumlah Penerima [<?=$data['kuota'];?>]
+            <?=$no." ". $data['nama_periode']; ?> | Jumlah Penerima [<?=$data['kuota'];?>]
             </a>
          </h4>
       </div>
@@ -139,7 +139,7 @@
         <thead>
          <tr>
          `+th_no+`
-           <th>Nama</th>
+           <th>Nama KK</th>
         `;
         var td_ct = '<tbody id="tbody_'+key+'_'+keys+'">';
         var th_ct = '';
@@ -318,7 +318,7 @@
     "scrollX": 250,
     "paging":true,
     "lengthMenu": [ 10, 25, 50, 75, 100 ],
-    "pageLength":20,
+    "pageLength":limit,
     "search":false,
     "responsive" : false,
     "order" : [[1,'desc']]

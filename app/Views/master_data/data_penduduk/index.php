@@ -1,11 +1,11 @@
 <?= $this->extend('layouts/default') ?>
 <?= $this->section('content') ?>
 
-  
+
 <title>SIBAS | Data Penduduk</title>
 
 <!-- DataTables -->
-  
+
 
 <!-- Content Header (Page header) -->
 <div class="content-header"></div><!-- /.container-header -->
@@ -52,7 +52,7 @@
           function get_jeniskelamin($code) {
             if($code == 'L') {
               return 'Laki-laki';
-            } 
+            }
             return 'Perempuan';
           }
             $get_agama = [
@@ -63,11 +63,11 @@
               '5' => 'Buddha',
               '6' => 'Konghucu'
             ];
-              
+
           function get_is_kepala_keluarga($code) {
             if($code == '0') {
               return 'Bukan Kepala Keluarga';
-            } 
+            }
             return 'Kepala Keluarga';
           }
           foreach($penduduk_list as $data) {
@@ -115,8 +115,8 @@
 <script>
   $(document).ready(function() {
     var tablePenduduk = $("#table_penduduk").DataTable({
-      "responsive": true, 
-      "lengthChange": false, 
+      "responsive": true,
+      "lengthChange": false,
       "autoWidth": false,
       "columnDefs": [
         {
@@ -171,6 +171,6 @@
     $(".selectAll").click(function() {
       $(".select-checkbox").click()
     })
-  }) 
+  })
 </script>
-<?= $this->endSection() ?>   
+<?= $this->endSection() ?>

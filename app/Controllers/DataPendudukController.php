@@ -4,9 +4,12 @@ namespace App\Controllers;
 
 class DataPendudukController extends BaseController
 {
+  public function __construct()
+	{
+        $db      = \Config\Database::connect();
+  }
     public function index()
     {
-        $db      = \Config\Database::connect();
         $penduduk = $db->table('penduduk');
 
         // Ambil semua data yang ada pada table penduduk
@@ -34,7 +37,7 @@ class DataPendudukController extends BaseController
         ];
         return view("master_data/data_penduduk/add",$data);
     }
-        
+
 
     public function submit_tambah(){
         //variable di Controller merupakan id dari kolom pada database didata yang ada pada controller, sedangkan yg dikurung getGet nama dari tipe data view pada database
@@ -122,13 +125,13 @@ class DataPendudukController extends BaseController
     public function delete_penduduk () {
         $id = $this->request->getGet('id');
         $id_kk  = $this->request->getGet('id_kk');
-        
+
         // ** Buat Object dari Class Model
 
         $penduduk = new \App\Models\PendudukModel();
-        
+
         $delete = $penduduk->delete($id);
-        
+
         $this->update_jumlah_tanggungan($id_kk);
 
         $displayMessage = [
@@ -238,6 +241,6 @@ class DataPendudukController extends BaseController
             'jumlah_tanggungan' => $jumlah_tanggungan
         ]);
     }
-    
-    
+
+
 }

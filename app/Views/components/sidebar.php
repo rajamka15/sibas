@@ -15,7 +15,7 @@
           <img src="<?php echo base_url() ?>public/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Raja MKA</a>
+          <a href="<?php echo base_url() ?>user/profile" class="d-block">Raja MKA</a>
         </div>
       </div>
 
@@ -39,7 +39,7 @@
               <p>
                 Master Data
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">3</span>
+                <span class="badge badge-info right">2</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
@@ -64,7 +64,7 @@
               <p>
                 Penentuan Bansos
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">3</span>
+                <span class="badge badge-info right">2</span>
               </p>
             </a>
             <ul class="nav nav-treeview">

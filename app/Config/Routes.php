@@ -70,15 +70,15 @@ $routes->group('periode_bansos', static function ($routes) {
     }
 );
 
-$routes->group('kriteria_bansos', static function ($routes) {
-    $routes->get('/', 'KriteriaBansosController::index');
-    $routes->get('tambah', 'KriteriaBansosController::tambah');
-    $routes->post('submit_tambah', 'KriteriaBansosController::submit_tambah');
-    $routes->get('delete', 'KriteriaBansosController::delete_kriteria');
-    $routes->get('edit', 'KriteriaBansosController::edit_kriteria');
-    $routes->post('submit_edit', 'KriteriaBansosController::submit_edit');
-    }
-);
+// $routes->group('kriteria_bansos', static function ($routes) {
+//     $routes->get('/', 'KriteriaBansosController::index');
+//     $routes->get('tambah', 'KriteriaBansosController::tambah');
+//     $routes->post('submit_tambah', 'KriteriaBansosController::submit_tambah');
+//     $routes->get('delete', 'KriteriaBansosController::delete_kriteria');
+//     $routes->get('edit', 'KriteriaBansosController::edit_kriteria');
+//     $routes->post('submit_edit', 'KriteriaBansosController::submit_edit');
+//     }
+// );
 
 $routes->group('login', static function ($routes) {
   $routes->get('/', 'LoginController::login');

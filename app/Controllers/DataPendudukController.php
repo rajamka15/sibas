@@ -6,11 +6,11 @@ class DataPendudukController extends BaseController
 {
   public function __construct()
 	{
-        $db      = \Config\Database::connect();
+        $this->db      = \Config\Database::connect();
   }
     public function index()
     {
-        $penduduk = $db->table('penduduk');
+        $penduduk = $this->db->table('penduduk');
 
         // Ambil semua data yang ada pada table penduduk
 
@@ -19,7 +19,7 @@ class DataPendudukController extends BaseController
         ->orderBy('kartu_keluarga.id_kk', "asc")
         ->get();
         $result=$query->getResultArray();
-
+        // $sub_kriteria = $this->db->table('penduduk');
         // Kirim data ke view
         $data = [
             "penduduk_list" => $result

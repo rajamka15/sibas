@@ -318,7 +318,7 @@
     "scrollX": 250,
     "paging":true,
     "lengthMenu": [ 10, 25, 50, 75, 100 ],
-    "pageLength":20,
+    "pageLength":limit,
     "search":false,
     "responsive" : false,
     "order" : [[1,'desc']]

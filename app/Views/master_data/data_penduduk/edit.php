@@ -87,12 +87,12 @@
                       <label>Agama</label>
                       <select class="form-control" name="agama" required>
                           <option value="">Pilih Agama</option>
-                          <option value="Islam"<?php echo $penduduk['agama'] == 'Islam' ? 'selected' : '' ?> >Islam</option>
-                          <option value="Protestan"<?php echo $penduduk['agama'] == 'Protestan' ? 'selected' : '' ?> >Protestan</option>
-                          <option value="Katholik"<?php echo $penduduk['agama'] == 'Katholik' ? 'selected' : '' ?> >Katholik</option>
-                          <option value="Hindu"<?php echo $penduduk['agama'] == 'Hindu' ? 'selected' : '' ?> >Hindu</option>
-                          <option value="Buddha"<?php echo $penduduk['agama'] == 'Buddha' ? 'selected' : '' ?> >Buddha</option>
-                          <option value="Konghucu"<?php echo $penduduk['agama'] == 'Konghucu' ? 'selected' : '' ?> >Konghucu</option>
+                          <option value="1"<?php echo $penduduk['agama'] == '1' ? 'selected' : '' ?> >Islam</option>
+                          <option value="2"<?php echo $penduduk['agama'] == '2' ? 'selected' : '' ?> >Protestan</option>
+                          <option value="3"<?php echo $penduduk['agama'] == '3' ? 'selected' : '' ?> >Katholik</option>
+                          <option value="4"<?php echo $penduduk['agama'] == '4' ? 'selected' : '' ?> >Hindu</option>
+                          <option value="5"<?php echo $penduduk['agama'] == '5' ? 'selected' : '' ?> >Buddha</option>
+                          <option value="6"<?php echo $penduduk['agama'] == '6' ? 'selected' : '' ?> >Konghucu</option>
                         </select>
                     </div>
                   <!-- End Agama -->
@@ -103,11 +103,11 @@
                       <label>Pendidikan</label>
                       <select class="form-control" name="pendidikan" required>
                           <option value="">Pilih Pendidikan</option>
-                          <option value="Tidak Sekolah"<?php echo $penduduk['pendidikan'] == 'Tidak Sekolah' ? 'selected' : '' ?> >Tidak Sekolah</option>
-                          <option value="SD"<?php echo $penduduk['pendidikan'] == 'SD' ? 'selected' : '' ?> >SD</option>
-                          <option value="SMP"<?php echo $penduduk['pendidikan'] == 'SMP' ? 'selected' : '' ?> >SMP</option>
-                          <option value="SMA/SMK"<?php echo $penduduk['pendidikan'] == 'SMA/SMK' ? 'selected' : '' ?> >SMA/SMK</option>
-                          <option value="S1/S2/S3"<?php echo $penduduk['pendidikan'] == 'S1/S2/S3' ? 'selected' : '' ?> >S1/S2/S3</option>
+                          <option value="1"<?php echo $penduduk['pendidikan'] == '1' ? 'selected' : '' ?> >Tidak Sekolah</option>
+                          <option value="2"<?php echo $penduduk['pendidikan'] == '2' ? 'selected' : '' ?> >SD</option>
+                          <option value="3"<?php echo $penduduk['pendidikan'] == '3' ? 'selected' : '' ?> >SMP</option>
+                          <option value="4"<?php echo $penduduk['pendidikan'] == '4' ? 'selected' : '' ?> >SMA/SMK</option>
+                          <option value="5"<?php echo $penduduk['pendidikan'] == '5' ? 'selected' : '' ?> >S1/S2/S3</option>
                         </select>
                       </div>
                   <!-- End Pendidikan -->
@@ -126,10 +126,10 @@
                       <label>Penghasilan</label>
                       <select class="form-control" name="penghasilan" required>
                           <option value="">Pilih Penghasilan</option>
-                          <option value="<500K"<?php echo $penduduk['penghasilan'] == '<500K' ? 'selected' : '' ?> > < 500K </option>
-                          <option value="500K-2JT"<?php echo $penduduk['penghasilan'] == '500K-2J' ? 'selected' : '' ?> >500K-2JT</option>
-                          <option value="2JT-4JT"<?php echo $penduduk['penghasilan'] == '<2JT-4JT' ? 'selected' : '' ?> >2JT-4JT</option>
-                          <option value=">4JT"<?php echo $penduduk['penghasilan'] == '>4JT' ? 'selected' : '' ?> > >4JT </option>
+                          <option value="10"<?php echo $penduduk['penghasilan'] == '10' ? 'selected' : '' ?> > < 500K </option>
+                          <option value="11"<?php echo $penduduk['penghasilan'] == '11' ? 'selected' : '' ?> >500K-2JT</option>
+                          <option value="12"<?php echo $penduduk['penghasilan'] == '12' ? 'selected' : '' ?> >2JT-4JT</option>
+                          <option value="13"<?php echo $penduduk['penghasilan'] == '13' ? 'selected' : '' ?> > >4JT </option>
                       </select>
                   </div>
                   <!-- End Penghasilan -->
@@ -140,10 +140,10 @@
                       <label>Pengeluaran</label>
                       <select class="form-control" name="pengeluaran" required>
                           <option value="">Pilih Pengeluaran</option>
-                          <option value="<500K"<?php echo $penduduk['pengeluaran'] == '<500K' ? 'selected' : '' ?> > < 500K </option>
-                          <option value="500K-2JT"<?php echo $penduduk['pengeluaran'] == '500K-2J' ? 'selected' : '' ?> >500K-2JT</option>
-                          <option value="2JT-4JT"<?php echo $penduduk['pengeluaran'] == '<2JT-4JT' ? 'selected' : '' ?> >2JT-4JT</option>
-                          <option value=">4JT"<?php echo $penduduk['pengeluaran'] == '>4JT' ? 'selected' : '' ?> > >4JT </option>
+                          <option value="14"<?php echo $penduduk['pengeluaran'] == '14' ? 'selected' : '' ?> > < 500K </option>
+                          <option value="15"<?php echo $penduduk['pengeluaran'] == '15' ? 'selected' : '' ?> >500K-2JT</option>
+                          <option value="16"<?php echo $penduduk['pengeluaran'] == '16' ? 'selected' : '' ?> >2JT-4JT</option>
+                          <option value="17"<?php echo $penduduk['pengeluaran'] == '17' ? 'selected' : '' ?> > >4JT </option>
                       </select>
                   </div>
                   <!-- End Pengeluaran -->
@@ -154,9 +154,9 @@
                       <label>Sumber Air</label>
                       <select class="form-control" name="sumber_air" required>
                           <option value="">Pilih Sumber Air</option>
-                          <option value="Sumur Milik Sendiri"<?php echo $penduduk['sumber_air'] == 'Sumur Milik Sendiri' ? 'selected' : '' ?> >Sumur Milik Sendiri</option>
-                          <option value="Sumur Milik Tetangga"<?php echo $penduduk['sumber_air'] == 'Sumur Milik Tetangga' ? 'selected' : '' ?> >Sumur Milik Tetangga</option>
-                          <option value="PDAM">PDAM</option>
+                          <option value="19"<?php echo $penduduk['sumber_air'] == '19' ? 'selected' : '' ?> >Sumur Milik Sendiri</option>
+                          <option value="20"<?php echo $penduduk['sumber_air'] == '20' ? 'selected' : '' ?> >Sumur Milik Tetangga</option>
+                          <option value="21"<?php echo $penduduk['sumber_air'] == '21' ? 'selected' : '' ?> >PDAM</option>
                         </select>
                       </div>
                   <!-- End Sumber Air -->
@@ -181,10 +181,10 @@
                       <label>Status Rumah</label>
                       <select class="form-control" name="status_rumah" required>
                           <option value="">Pilih Status Rumah</option>
-                          <option value="Menumpang"<?php echo $penduduk['status_rumah'] == 'Menumpang' ? 'selected' : '' ?> >Menumpang</option>
-                          <option value="Milik Sendiri"<?php echo $penduduk['status_rumah'] == 'Milik Sendiri' ? 'selected' : '' ?> >Milik Sendiri</option>
-                          <option value="Kontrak"<?php echo $penduduk['status_rumah'] == 'Kontrak' ? 'selected' : '' ?> >Kontrak</option>
-                          <option value="Milik Orang Tua/Warisan"<?php echo $penduduk['status_rumah'] == 'Milik Orang Tua/Warisan' ? 'selected' : '' ?> >Milik Orang Tua/Warisan</option>
+                          <option value="24"<?php echo $penduduk['status_rumah'] == '24' ? 'selected' : '' ?> >Menumpang</option>
+                          <option value="25"<?php echo $penduduk['status_rumah'] == '25' ? 'selected' : '' ?> >Milik Sendiri</option>
+                          <option value="26"<?php echo $penduduk['status_rumah'] == '26' ? 'selected' : '' ?> >Kontrak</option>
+                          <option value="29"<?php echo $penduduk['status_rumah'] == '29' ? 'selected' : '' ?> >Milik Orang Tua/Warisan</option>
                         </select>
                   </div>
                   <!-- End Status Rumah -->
@@ -195,10 +195,10 @@
                       <label>Daya Listrik</label>
                       <select class="form-control" name="daya_listrik" required>
                           <option value="">Pilih Daya Listrik</option>
-                          <option value="Listrik Menumpang"<?php echo $penduduk['daya_listrik'] == 'Listrik Menumpang' ? 'selected' : '' ?> >Listrik Menumpang</option>
-                          <option value="Listrik 450 Watt"<?php echo $penduduk['daya_listrik'] == 'Listrik 450 Watt' ? 'selected' : '' ?> >Listrik 450 Watt</option>
-                          <option value="Listrik 900 Watt"<?php echo $penduduk['daya_listrik'] == 'Listrik 900 Watt' ? 'selected' : '' ?> >Listrik 900 Watt</option>
-                          <option value="Listrik>900 Watt"<?php echo $penduduk['daya_listrik'] == 'Listrik>900 Watt' ? 'selected' : '' ?> >Listrik > 900 Watt</option>
+                          <option value="30"<?php echo $penduduk['daya_listrik'] == '30' ? 'selected' : '' ?> >Listrik Menumpang</option>
+                          <option value="31"<?php echo $penduduk['daya_listrik'] == '31' ? 'selected' : '' ?> >Listrik 450 Watt</option>
+                          <option value="33"<?php echo $penduduk['daya_listrik'] == '33' ? 'selected' : '' ?> >Listrik 900 Watt</option>
+                          <option value="34"<?php echo $penduduk['daya_listrik'] == '34' ? 'selected' : '' ?> >Listrik > 900 Watt</option>
                         </select>
                     </div>
                   <!-- End Daya Listrik -->
@@ -208,9 +208,9 @@
                       <label>Transportasi</label>
                       <select class="form-control" name="transportasi" required>
                           <option value="">Pilih Transportasi</option>
-                          <option value="Jalan Kaki/Sepeda/Sepeda Motor Seadanya"<?php echo $penduduk['transportasi'] == 'Jalan Kaki/Sepeda/Sepeda Motor Seadanya' ? 'selected' : '' ?> >Jalan Kaki/Sepeda/Sepeda Motor Seadanya</option>
-                          <option value="Sepeda Motor 1 Buah dalam Kondisi Baik"<?php echo $penduduk['transportasi'] == 'Sepeda Motor 1 Buah dalam Kondisi Baik' ? 'selected' : '' ?> >Sepeda Motor 1 Buah dalam Kondisi Baik</option>
-                          <option value="Sepeda Motor >1 Buah dalam kondisi baik"<?php echo $penduduk['transportasi'] == 'Sepeda Motor >1 Buah dalam Kondisi Baik' ? 'selected' : '' ?> >Sepeda Motor >1 Buah dalam kondisi baik</option>
+                          <option value="35"<?php echo $penduduk['transportasi'] == '35' ? 'selected' : '' ?> >Jalan Kaki/Sepeda/Sepeda Motor Seadanya</option>
+                          <option value="37"<?php echo $penduduk['transportasi'] == '37' ? 'selected' : '' ?> >Sepeda Motor 1 Buah dalam Kondisi Baik</option>
+                          <option value="39"<?php echo $penduduk['transportasi'] == '39' ? 'selected' : '' ?> >Sepeda Motor >1 Buah dalam kondisi baik</option>
                         </select>
                   </div>
                   <!-- End Transportasi -->

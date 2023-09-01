@@ -63,6 +63,47 @@
               '5' => 'Buddha',
               '6' => 'Konghucu'
             ];
+            $get_pendidikan = [
+              '1' => 'Tidak Sekolah',
+              '2' => 'SD',
+              '3' => 'SMP',
+              '4' => 'SMA/SMK',
+              '5' => 'S1/S2/S3'
+            ];
+            $get_penghasilan = [
+              '10' => '<500K',
+              '11' => '500K-2J',
+              '12' => '2JT-4JT',
+              '13' => '>4JT'
+            ];
+            $get_pengeluaran = [
+              '14' => '<500K',
+              '15' => '500K-2J',
+              '16' => '2JT-4JT',
+              '17' => '>4JT'
+            ];
+            $get_sumber_air = [
+              '19' => 'Sumur Milik Sendiri',
+              '20' => 'Sumur Milik Tetangga',
+              '21' => 'PDAM'
+            ];
+            $get_status_rumah = [
+              '24' => 'Milik Sendiri',
+              '25' => 'Milik Orang Tua/Warisan',
+              '26' => 'Kontrak',
+              '29' => 'Menumpang'
+            ];
+            $get_daya_listrik = [
+              '30' => 'Listrik Menumpang',
+              '31' => 'Listrik 450 Watt',
+              '33' => 'Listrik 900 Watt',
+              '34' => 'Listrik >900 Watt'
+            ];
+            $get_transportasi = [
+              '35' => 'Jalan Kaki/Sepeda/Sepeda Motor Seadanya',
+              '37' => 'Sepeda Motor 1 Buah dalam Kondisi Baik',
+              '39' => 'Sepeda Motor >1 Buah dalam kondisi baik'
+            ];
 
           function get_is_kepala_keluarga($code) {
             if($code == '0') {
@@ -85,15 +126,15 @@
                 </td>";
               echo"<td><i class='fa fa-plus'></i></td>";
               echo"<td>".$data['tanggal_lahir']."</td>";
-              echo"<td>".$data['pendidikan']."</td>";
+              echo"<td>".$get_pendidikan[$data['pendidikan']]."</td>";
               echo"<td>".$data['pekerjaan']."</td>";
-              echo"<td>".$data['penghasilan']."</td>";
-              echo"<td>".$data['pengeluaran']."</td>";
-              echo"<td>".$data['sumber_air']."</td>";
+              echo"<td>".$get_penghasilan[$data['penghasilan']]."</td>";
+              echo"<td>".$get_pengeluaran[$data['pengeluaran']]."</td>";
+              echo"<td>".$get_sumber_air[$data['sumber_air']]."</td>";
               echo"<td>".$data['status_kawin']."</td>";
-              echo"<td>".$data['status_rumah']."</td>";
-              echo"<td>".$data['daya_listrik']."</td>";
-              echo"<td>".$data['transportasi']."</td>";
+              echo"<td>".$get_status_rumah[$data['status_rumah']]."</td>";
+              echo"<td>".$get_daya_listrik[$data['daya_listrik']]."</td>";
+              echo"<td>".$get_transportasi[$data['transportasi']]."</td>";
               echo"<td>".get_is_kepala_keluarga($data['is_kepala_keluarga'])."</td>";
               echo"</tr>";
           }

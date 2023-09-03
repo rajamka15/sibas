@@ -15,7 +15,7 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url() ?>penduduk">Data Penduduk</a></li>
             <li class="breadcrumb-item active">Tambah Data Penduduk</li>
         </ol>
         </div><!-- /.col -->
@@ -245,14 +245,14 @@
 <!-- jQuery -->
 <script src="<?php echo base_url() ?>public/plugins/jquery/jquery.min.js"></script>
 
-<!-- page script
+<!-- page script -->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
   $(document).ready(function() {
   $("#table_penduduk").DataTable();
 })
-</script>
+</script> -->
 
 <script>
 function checkMaxLength(input, maxLength) {
@@ -261,7 +261,7 @@ function checkMaxLength(input, maxLength) {
     alert("Karakter melebihi batas maksimum!");
   }
 }
-</script> -->
+</script>
 
 <script>
 $(function () {

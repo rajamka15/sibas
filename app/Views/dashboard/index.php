@@ -29,7 +29,7 @@
                 <p>Jumlah Kartu Keluarga</p>
               </div>
               <div class="icon">
-                <i class="ion ion-bag"></i>
+                <i class="ion ion-ios-people"></i>
               </div>
               <a href="<?php echo base_url() ?>kartu_keluarga" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -44,7 +44,7 @@
                 <p>Jumlah Warga</p>
               </div>
               <div class="icon">
-                <i class="ion ion-stats-bars"></i>
+                <i class="ion ion-ios-personadd"></i>
               </div>
               <a href="<?php echo base_url() ?>penduduk" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -59,7 +59,7 @@
                 <p>Jumlah Periode Bansos</p>
               </div>
               <div class="icon">
-                <i class="ion ion-person-add"></i>
+                <i class="ion ion-stats-bars"></i>
               </div>
               <a href="<?php echo base_url() ?>periode_bansos" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -74,7 +74,7 @@
                 <p>Multi-Objective Optimization by Ratio Analysis</p>
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="ion ion-wrench"></i>
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>

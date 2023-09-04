@@ -85,15 +85,15 @@
                 </td>";
               echo"<td><i class='fa fa-plus'></i></td>";
               echo"<td>".$data['tanggal_lahir']."</td>";
-              echo"<td>".$data['pendidikan']."</td>";
+              echo"<td>".$arraySubKriteria[$data['pendidikan']]."</td>";
               echo"<td>".$data['pekerjaan']."</td>";
-              echo"<td>".$data['penghasilan']."</td>";
-              echo"<td>".$data['pengeluaran']."</td>";
-              echo"<td>".$data['sumber_air']."</td>";
+              echo"<td>".$arraySubKriteria[$data['penghasilan']]."</td>";
+              echo"<td>".$arraySubKriteria[$data['pengeluaran']]."</td>";
+              echo"<td>".$arraySubKriteria[$data['sumber_air']]."</td>";
               echo"<td>".$data['status_kawin']."</td>";
-              echo"<td>".$data['status_rumah']."</td>";
-              echo"<td>".$data['daya_listrik']."</td>";
-              echo"<td>".$data['transportasi']."</td>";
+              echo"<td>".$arraySubKriteria[$data['status_rumah']]."</td>";
+              echo"<td>".$arraySubKriteria[$data['daya_listrik']]."</td>";
+              echo"<td>".$arraySubKriteria[$data['transportasi']]."</td>";
               echo"<td>".get_is_kepala_keluarga($data['is_kepala_keluarga'])."</td>";
               echo"</tr>";
           }

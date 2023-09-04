@@ -18,11 +18,19 @@ class DataPendudukController extends BaseController
         ->join('kartu_keluarga', 'kartu_keluarga.id_kk = penduduk.id_kk', "left")
         ->orderBy('kartu_keluarga.id_kk', "asc")
         ->get();
+
+        $getSubKriteria = $this->db->query("SELECT s.id_sub_kriteria, s.nama_sub_kriteria FROM sub_kriteria s")->getResult();
+        $arraySubKriteria = array();
+        foreach ($getSubKriteria as $key => $value) {
+          // code...
+          $arraySubKriteria[$value->id_sub_kriteria] = $value->nama_sub_kriteria;
+        }
         $result=$query->getResultArray();
         // $sub_kriteria = $this->db->table('penduduk');
         // Kirim data ke view
         $data = [
-            "penduduk_list" => $result
+            "penduduk_list" => $result,
+            "arraySubKriteria" => $arraySubKriteria
         ];
         return view('master_data/data_penduduk/index', $data);
     }

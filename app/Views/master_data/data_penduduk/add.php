@@ -15,7 +15,7 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url() ?>penduduk">Data Penduduk</a></li>
             <li class="breadcrumb-item active">Tambah Data Penduduk</li>
         </ol>
         </div><!-- /.col -->
@@ -102,12 +102,12 @@
                       <label>Agama</label>
                       <select class="form-control" name="agama" required>
                           <option value="">Pilih Agama</option>
-                          <option value="Islam">Islam</option>
-                          <option value="Protestan">Protestan</option>
-                          <option value="Katholik">Katholik</option>
-                          <option value="Hindu">Hindu</option>
-                          <option value="Buddha">Buddha</option>
-                          <option value="Konghucu">Konghucu</option>
+                          <option value="1">Islam</option>
+                          <option value="2">Protestan</option>
+                          <option value="3">Katholik</option>
+                          <option value="4">Hindu</option>
+                          <option value="5">Buddha</option>
+                          <option value="6">Konghucu</option>
                         </select>
                     </div>
                   <!-- End Agama -->
@@ -118,11 +118,11 @@
                       <label>Pendidikan</label>
                       <select class="form-control" name="pendidikan" required>
                           <option value="">Pilih Pendidikan</option>
-                          <option value="Tidak Sekolah">Tidak Sekolah</option>
-                          <option value="SD">SD</option>
-                          <option value="SMP">SMP</option>
-                          <option value="SMA/SMK">SMA/SMK</option>
-                          <option value="S1/S2/S3">S1/S2/S3</option>
+                          <option value="1">Tidak Sekolah</option>
+                          <option value="2">SD</option>
+                          <option value="3">SMP</option>
+                          <option value="4">SMA/SMK</option>
+                          <option value="5">S1/S2/S3</option>
                         </select>
                       </div>
                   <!-- End Pendidikan -->
@@ -141,10 +141,10 @@
                       <label>Penghasilan</label>
                       <select class="form-control" name="penghasilan" required>
                           <option value="">Pilih Penghasilan</option>
-                          <option value="<500K"> < 500K </option>
-                          <option value="500K-2JT">500K-2JT</option>
-                          <option value="2JT-4JT">2JT-4JT</option>
-                          <option value=">4JT"> >4JT </option>
+                          <option value="10"> < 500K </option>
+                          <option value="11">500K-2JT</option>
+                          <option value="12">2JT-4JT</option>
+                          <option value="13"> >4JT </option>
                       </select>
                   </div>
                   <!-- End Penghasilan -->
@@ -155,10 +155,10 @@
                       <label>Pengeluaran</label>
                       <select class="form-control" name="pengeluaran" required>
                           <option value="">Pilih Pengeluaran</option>
-                          <option value="<500K"> < 500K </option>
-                          <option value="500K-2JT">500K-2JT</option>
-                          <option value="2JT-4JT">2JT-4JT</option>
-                          <option value=">4JT"> >4JT </option>
+                          <option value="14"> < 500K </option>
+                          <option value="15">500K-2JT</option>
+                          <option value="16">2JT-4JT</option>
+                          <option value=">17"> >4JT </option>
                         </select>
                   </div>
                   <!-- End Pengeluaran -->
@@ -169,9 +169,9 @@
                       <label>Sumber Air</label>
                       <select class="form-control" name="sumber_air" required>
                           <option value="">Pilih Sumber Air</option>
-                          <option value="Sumur Milik Sendiri">Sumur Milik Sendiri</option>
-                          <option value="Sumur Milik Tetangga">Sumur Milik Tetangga</option>
-                          <option value="PDAM">PDAM</option>
+                          <option value="19">Sumur Milik Sendiri</option>
+                          <option value="20">Sumur Milik Tetangga</option>
+                          <option value="21">PDAM</option>
                         </select>
                       </div>
                   <!-- End Sumber Air -->
@@ -196,10 +196,10 @@
                       <label>Status Rumah</label>
                       <select class="form-control" name="status_rumah" required>
                           <option value="">Pilih Status Rumah</option>
-                          <option value="Menumpang">Menumpang</option>
-                          <option value="Milik Sendiri">Milik Sendiri</option>
-                          <option value="Kontrak">Kontrak</option>
-                          <option value="Milik Orang Tua/Warisan">Milik Orang Tua/Warisan</option>
+                          <option value="24">Menumpang</option>
+                          <option value="25">Milik Sendiri</option>
+                          <option value="26">Kontrak</option>
+                          <option value="29">Milik Orang Tua/Warisan</option>
                         </select>
                   </div>
                   <!-- End Status Rumah -->
@@ -210,10 +210,10 @@
                       <label>Daya Listrik</label>
                       <select class="form-control" name="daya_listrik" required>
                           <option value="">Pilih Daya Listrik</option>
-                          <option value="Listrik Menumpang">Listrik Menumpang</option>
-                          <option value="Listrik 450 Watt">Listrik 450 Watt</option>
-                          <option value="Listrik 900 Watt">Listrik 900 Watt</option>
-                          <option value="Listrik>900 Watt">Listrik > 900 Watt</option>
+                          <option value="30">Listrik Menumpang</option>
+                          <option value="31">Listrik 450 Watt</option>
+                          <option value="33">Listrik 900 Watt</option>
+                          <option value="34">Listrik > 900 Watt</option>
                         </select>
                     </div>
                   <!-- End Daya Listrik -->
@@ -223,9 +223,9 @@
                       <label>Transportasi</label>
                       <select class="form-control" name="transportasi" required>
                           <option value="">Pilih Transportasi</option>
-                          <option value="Jalan Kaki/Sepeda/Sepeda Motor Seadanya">Jalan Kaki/Sepeda/Sepeda Motor Seadanya</option>
-                          <option value="Sepeda Motor 1 Buah dalam Kondisi Baik">Sepeda Motor 1 Buah dalam Kondisi Baik</option>
-                          <option value="Sepeda Motor >1 Buah dalam kondisi baik">Sepeda Motor >1 Buah dalam kondisi baik</option>
+                          <option value="35">Jalan Kaki/Sepeda/Sepeda Motor Seadanya</option>
+                          <option value="37">Sepeda Motor 1 Buah dalam Kondisi Baik</option>
+                          <option value="39">Sepeda Motor >1 Buah dalam kondisi baik</option>
                         </select>
                   </div>
                   <!-- End Transportasi -->
@@ -245,14 +245,14 @@
 <!-- jQuery -->
 <script src="<?php echo base_url() ?>public/plugins/jquery/jquery.min.js"></script>
 
-<!-- page script
+<!-- page script -->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
   $(document).ready(function() {
   $("#table_penduduk").DataTable();
 })
-</script>
+</script> -->
 
 <script>
 function checkMaxLength(input, maxLength) {
@@ -261,7 +261,7 @@ function checkMaxLength(input, maxLength) {
     alert("Karakter melebihi batas maksimum!");
   }
 }
-</script> -->
+</script>
 
 <script>
 $(function () {

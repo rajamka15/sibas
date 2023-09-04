@@ -1,4 +1,10 @@
-  <!-- Main Sidebar Container -->
+<?php
+use Config\Services;
+$session = Services::session();
+$jenis_user = $session->userData['jenis_user'];
+$nama_user = $session->userData['nama_user'];
+ ?>
+<!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?= base_url() ?>" class="brand-link">
@@ -15,7 +21,7 @@
           <img src="<?php echo base_url() ?>public/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="<?php echo base_url() ?>user/profile" class="d-block">Raja MKA</a>
+          <a href="<?php echo base_url() ?>user/profile" class="d-block"><?=ucfirst($nama_user)?></a>
         </div>
       </div>
 

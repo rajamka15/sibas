@@ -106,7 +106,7 @@
 
       $.each(res.data_hasil,function(keys,values){
         // console.log(keys);
-        var name_item = keys == 1 ? "Normalisasi" : "Normailasi * Bobot";
+        var name_item = keys == 1 ? "Normalisasi" : "Hasil Optimasi";
         li_content += `
         <li class="nav-item">
            <a class="nav-link" id="custom-tabs-three-home-`+key+`-`+keys+`" data-toggle="pill" href="#tabs-`+key+`-`+keys+`" role="tab" aria-controls="tabs-`+key+`-`+keys+`" aria-selected="true">`+name_item+`</a>

@@ -94,7 +94,7 @@
     url: base_url + "periode_bansos/hasil_bansos?id_periode="+id_periode,
     dataType: "json",
     success: function (res) {
-      // console.log(res);
+      console.log(res);
       if(res.data_hasil.length == 0){
         Swal.fire(
           'Oopss!',
@@ -139,7 +139,15 @@
         <thead>
          <tr>
          `+th_no+`
+          <th>No KK</th>
            <th>Nama KK</th>
+           <th>Jenis Kelamin</th>
+           <th>Tempat Lahir</th>
+           <th>Agama</th>
+           <th>Jumlah Tanggungan</th>
+           <th>Hasil</th>
+           <th>Ranking</th>
+
         `;
         var td_ct = '<tbody id="tbody_'+key+'_'+keys+'">';
         var th_ct = '';
@@ -149,7 +157,12 @@
           if(keys == 1){
             td_ct += `<td></td>`;
           }
+          td_ct += `<td>`+ v_nama.no_kk+`</td>`;
           td_ct += `<td>`+k_nama+`</td>`;
+          td_ct += `<td>`+v_nama.jk+`</td>`;
+          td_ct += `<td>`+v_nama.tl+`</td>`;
+          td_ct += `<td>`+v_nama.agama+`</td>`;
+          td_ct += `<td>`+v_nama.jml_tg+`</td>`;
           keys_th_ct = Object.keys(v_nama);
 
           // $.each(v_nama,function(k_d,v_d){
@@ -163,26 +176,29 @@
           //
           //
           //   });
-            if(keys == 2){
+            // if(keys == 2){
               td_ct += `<td>`+ v_nama.Hasil+`</td>`;
               td_ct += `<td></td>`;
-            }
+            // }
             td_ct += `</tr>`;
         });
 
           // console.log(keys_th_ct);
 
-        $.each(keys_th_ct, function(k_th,v_th){
-          // if(keys == 1 && v_th !== 'Hasil'){
-          //   th_ct += '<th>'+v_th+'</th>';
-          // }
-          if(keys == 2 &&  v_th == 'Hasil'){
-            th_ct += '<th>'+v_th+'</th>';
-          }
-        });
-        if(keys == 2){
-          th_ct += '<th>Ranking</th>';
-        }
+        // $.each(keys_th_ct, function(k_th,v_th){
+        //   // if(keys == 1 && v_th !== 'Hasil'){
+        //   //   th_ct += '<th>'+v_th+'</th>';
+        //   // }
+        //   if(keys == 2 &&  v_th == 'Hasil'){
+            // th_ct += '<th>Jenis Kelamin</th>';
+            // th_ct += '<th>Agama</th>';
+            // th_ct += '<th>Agama</th>';
+            // th_ct += '<th>Hasil</th>';
+        //   }
+        // });
+        // if(keys == 2){
+        //   th_ct += '<th>Ranking</th>';
+        // }
         // console.log(th_ct);
         th_ct += `</tr></thead>`;
         td_ct += `</tbody>`;
@@ -321,10 +337,10 @@
     "pageLength":limit,
     "search":false,
     "responsive" : false,
-    "order" : [[1,'desc']]
+    "order" : [[6,'desc']]
   });
   table_hasil2.on( 'order.dt', function () {
-          table_hasil2.column(2, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+          table_hasil2.column(7, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
               cell.innerHTML = i+1;
           } );
       } ).draw();

@@ -683,7 +683,7 @@ public function __construct()
       // print("<pre>".print_r($response,true)."</pre>");
     }
     function get_pendududk_kriteria(){
-      $get = $this->db->query("
+      return $this->db->query("
       SELECT
       res.id_kk,
       case
@@ -730,14 +730,13 @@ public function __construct()
       ELSE 0
       END 'n_umur'
        FROM (
-      SELECT * FROM penduduk p WHERE p.is_kepala_keluarga = 1
+      SELECT * FROM penduduk p
+      ORDER BY p.is_kepala_keluarga DESC
       ) res
       INNER JOIN kartu_keluarga k ON k.id_kk = res.id_kk
       GROUP BY res.id_kk
       ORDER BY res.nama
       ")->getResult();
-
-      return $get;
     }
     function group_by($key, $data) {
         $result = array();

@@ -607,6 +607,7 @@ public function __construct()
       $get_data_bansos = $this->db->query("
       SELECT * FROM posting_bansos p
       INNER JOIN kartu_keluarga k ON k.id_kk = p.id_kk
+      INNER JOIN penduduk p1 ON k.id_kk = p1.id_kk and p1.is_kepala_keluarga = 1
       INNER JOIN periode_bansos b ON b.id_periode = p.id_periode
       INNER JOIN kriteria kr ON kr.id_kriteria = p.id_kriteria
       INNER JOIN setting_bobot_kriteria s ON s.id_bansos = b.id_periode AND kr.id_kriteria = s.id_kriteria
@@ -638,12 +639,30 @@ public function __construct()
         foreach ($value_nama as $key_nama => $value_kriteria) {
           // code...
             $sum_nilai = 0;
-
+            $no_kk = 0;
+            $agama = "";
+            $agama = "";
+            $jk = "";
+            $tl = "";
+            $jml_tg = "";
+            $get_agama = [
+              '1' => 'Islam',
+              '2' => 'Protestan',
+              '3' => 'Katholik',
+              '4' => 'Hindu',
+              '5' => 'Buddha',
+              '6' => 'Konghucu'
+            ];
           foreach ($value_kriteria as $key_kriteria => $value) {
             // code...
 
             foreach ($value as $keys) {
               $sum_nilai += floatVal($keys['nilai']) ;
+              $no_kk =$keys['no_kk'];
+              $agama =$get_agama[$keys['agama']];
+              $jk =$keys['jenis_kelamin'] == "L" ? "Laki - Laki" : "Perempuan";
+              $tl =$keys['tempat_lahir'];
+              $jml_tg =$keys['jumlah_tanggungan'];
             }
 
 
@@ -651,6 +670,11 @@ public function __construct()
           $get_data_array_bansos[$key][$key_nama] = $value_kriteria;
           if($key == 2){
             $get_data_array_bansos[$key][$key_nama]['Hasil'] = round($sum_nilai,8);
+            $get_data_array_bansos[$key][$key_nama]['no_kk'] = $no_kk;
+            $get_data_array_bansos[$key][$key_nama]['agama'] = $agama;
+            $get_data_array_bansos[$key][$key_nama]['jk'] = $jk;
+            $get_data_array_bansos[$key][$key_nama]['tl'] = $tl;
+            $get_data_array_bansos[$key][$key_nama]['jml_tg'] = $jml_tg;
           }
 
         }
@@ -687,10 +711,10 @@ public function __construct()
       SELECT
       res.id_kk,
       case
-      when (COUNT(res.id_kk) - 1) = 0 then getIdKriteria(6)
-      when (COUNT(res.id_kk) - 1) > 0 AND (COUNT(res.id_kk) - 1) <= 2 then getIdKriteria(7)
-      when (COUNT(res.id_kk) - 1) > 2 AND (COUNT(res.id_kk) - 1) <= 4 then getIdKriteria(8)
-      when (COUNT(res.id_kk) - 1) >= 5 then getIdKriteria(9)
+      when (res.jml_tanggungan - 1) = 0 then getIdKriteria(6)
+      when (res.jml_tanggungan - 1) > 0 AND (res.jml_tanggungan - 1) <= 2 then getIdKriteria(7)
+      when (res.jml_tanggungan - 1) > 2 AND (res.jml_tanggungan - 1) <= 4 then getIdKriteria(8)
+      when (res.jml_tanggungan - 1) >= 5 then getIdKriteria(9)
       end
        'id_jumlah_tanggungan',
       getIdKriteria(res.pendidikan) 'id_pendidikan',
@@ -701,19 +725,19 @@ public function __construct()
       getIdKriteria(res.daya_listrik) 'id_daya',
       getIdKriteria(res.transportasi) 'id_transportasi',
       case
-      when res.umur >= 20 AND res.umur <= 30 then getIdKriteria(40)
-      when res.umur > 30 AND res.umur <= 40 then getIdKriteria(41)
-      when res.umur > 40 AND res.umur <= 50 then getIdKriteria(42)
-      when res.umur > 50 then getIdKriteria(43)
+      when res.umur_now >= 20 AND res.umur_now <= 30 then getIdKriteria(40)
+      when res.umur_now > 30 AND res.umur_now <= 40 then getIdKriteria(41)
+      when res.umur_now > 40 AND res.umur_now <= 50 then getIdKriteria(42)
+      when res.umur_now > 50 then getIdKriteria(43)
       ELSE getIdKriteria(40)
       END 'id_umur',
       k.nama_kepala_kk,
       getNilaiSubKriteria(res.pendidikan) 'n_pendidikan',
       case
-      when (COUNT(res.id_kk) - 1) = 0 then getNilaiSubKriteria(6)
-      when (COUNT(res.id_kk) - 1) > 0 AND (COUNT(res.id_kk) - 1) <= 2 then getNilaiSubKriteria(7)
-      when (COUNT(res.id_kk) - 1) > 2 AND (COUNT(res.id_kk) - 1) <= 4 then getNilaiSubKriteria(8)
-      when (COUNT(res.id_kk) - 1) >= 5 then getNilaiSubKriteria(9)
+      when (res.jml_tanggungan - 1) = 0 then getNilaiSubKriteria(6)
+      when (res.jml_tanggungan - 1) > 0 AND (res.jml_tanggungan - 1) <= 2 then getNilaiSubKriteria(7)
+      when (res.jml_tanggungan - 1) > 2 AND (res.jml_tanggungan- 1) <= 4 then getNilaiSubKriteria(8)
+      when (res.jml_tanggungan - 1) >= 5 then getNilaiSubKriteria(9)
       end
        'n_jumlah_tanggungan',
       getNilaiSubKriteria(res.penghasilan) 'n_penghasilan',
@@ -723,16 +747,18 @@ public function __construct()
       getNilaiSubKriteria(res.daya_listrik) 'n_daya',
       getNilaiSubKriteria(res.transportasi) 'n_transportasi',
       case
-      when res.umur >= 20 AND res.umur <= 30 then getNilaiSubKriteria(40)
-      when res.umur > 30 AND res.umur <= 40 then getNilaiSubKriteria(41)
-      when res.umur > 40 AND res.umur <= 50 then getNilaiSubKriteria(42)
-      when res.umur > 50 then getNilaiSubKriteria(43)
+      when res.umur_now >= 20 AND res.umur_now <= 30 then getNilaiSubKriteria(40)
+      when res.umur_now > 30 AND res.umur_now <= 40 then getNilaiSubKriteria(41)
+      when res.umur_now > 40 AND res.umur_now <= 50 then getNilaiSubKriteria(42)
+      when res.umur_now > 50 then getNilaiSubKriteria(43)
       ELSE 0
       END 'n_umur'
        FROM (
-      SELECT * FROM penduduk p
-      ORDER BY p.is_kepala_keluarga DESC
-      LIMIT 1000
+      SELECT (SELECT COUNT(kk.id_kk) FROM penduduk p1
+		INNER JOIN kartu_keluarga kk ON kk.id_kk = p1.id_kk
+		WHERE p1.id_kk = p.id_kk
+		GROUP BY kk.id_kk) 'jml_tanggungan',TIMESTAMPDIFF(year,p.tanggal_lahir,NOW()) 'umur_now', p.* FROM penduduk p
+		WHERE p.is_kepala_keluarga = 1
       ) res
       INNER JOIN kartu_keluarga k ON k.id_kk = res.id_kk
       GROUP BY res.id_kk

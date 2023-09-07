@@ -83,7 +83,7 @@
     url: base_url + "periode_bansos/hasil_bansos?id_periode="+id_periode,
     dataType: "json",
     success: function (res) {
-      // console.log(res);
+      console.log(res);
       if(res.data_hasil.length == 0){
         Swal.fire(
           'Oopss!',
@@ -106,6 +106,7 @@
 
       $.each(res.data_hasil,function(keys,values){
         // console.log(keys);
+        if(keys == 1 || keys == 2){
         var name_item = keys == 1 ? "Normalisasi" : "Hasil Optimasi";
         li_content += `
         <li class="nav-item">
@@ -119,6 +120,9 @@
         `;
         var button = '';
         var th_no = '';
+
+
+
         if(keys == 1){
           th_no += '<th>No</th>';
         }
@@ -181,6 +185,7 @@
         table_content += `</table>`;
         // table_content += `</div>`;
         table_content += `</div>`;
+        }
       });
       html_tab += li_content;
       html_tab += `</ul>

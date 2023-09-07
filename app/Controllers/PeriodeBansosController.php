@@ -670,13 +670,14 @@ public function __construct()
           $get_data_array_bansos[$key][$key_nama] = $value_kriteria;
           if($key == 2){
             $get_data_array_bansos[$key][$key_nama]['Hasil'] = round($sum_nilai,8);
-            $get_data_array_bansos[$key][$key_nama]['no_kk'] = $no_kk;
-            $get_data_array_bansos[$key][$key_nama]['agama'] = $agama;
-            $get_data_array_bansos[$key][$key_nama]['jk'] = $jk;
-            $get_data_array_bansos[$key][$key_nama]['tl'] = $tl;
-            $get_data_array_bansos[$key][$key_nama]['jml_tg'] = $jml_tg;
           }
 
+          $get_data_array_bansos[3][$key_nama]['Hasil'] = round($sum_nilai,8);
+          $get_data_array_bansos[3][$key_nama]['no_kk'] = $no_kk;
+          $get_data_array_bansos[3][$key_nama]['agama'] = $agama;
+          $get_data_array_bansos[3][$key_nama]['jk'] = $jk;
+          $get_data_array_bansos[3][$key_nama]['tl'] = $tl;
+          $get_data_array_bansos[3][$key_nama]['jml_tg'] = $jml_tg;
         }
       }
       $data_kriteria_penduduk =json_decode(json_encode($this->get_pendududk_kriteria()), true); ;

@@ -115,7 +115,7 @@
 
       $.each(res.data_hasil,function(keys,values){
         // console.log(keys);
-        if(keys == 2){
+        if(keys == 3){
         var name_item = keys == 1 ? "Normalisasi" : "Data Penerima";
         li_content += `
         <li class="nav-item">
@@ -316,7 +316,7 @@
       } ).draw();
    table_hasil1.columns.adjust().draw();
    console.log(limit)
- var table_hasil2 = $('#tbl_hasil_'+key+'_2').DataTable({
+ var table_hasil2 = $('#tbl_hasil_'+key+'_3').DataTable({
     "dom": "Bfrtip",
     "buttons" : [
       {
